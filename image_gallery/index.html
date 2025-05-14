@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="gallery-container">
+      <div class="main-image">
+        <img id="currentImage" src="images/img1.jpg" alt="Main" />
+      </div>
+      <div class="controls">
+        <button onclick="prevImage()">Previous</button>
+        <button onclick="nextImage()">Next</button>
+      </div>
+      <div class="thumbnails">
+        <img src="images/img1.jpg" onclick="showImage(0)" />
+        <img src="images/img2.jpg" onclick="showImage(1)" />
+        <img src="images/img3.jpg" onclick="showImage(2)" />
+        <img src="images/img4.jpg" onclick="showImage(3)" />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

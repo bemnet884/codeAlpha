@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.gallery-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.controls {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.thumbnails {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.thumbnails img {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  border: 2px solid transparent;
+  border-radius: 4px;
+}
+
+.thumbnails img:hover {
+  border: 2px solid #007bff;
+}
